@@ -5,7 +5,7 @@ console.log(age)
 
 // -----------------
 
-let name = "Maria"
+const name = "Maria"
 console.log(name)
 
 // -----------------
@@ -15,14 +15,14 @@ console.log("isStudent:>>", isStudent)
 
 // -----------------
 
-let myString = "я люблю піцу" 
+const myString = "я люблю піцу" 
 console.log(myString)
 
 // -----------------
 
-const myNumber = 14
-const myNumb = myNumber + 10
-console.log(myNumb)
+let myNumber = 14
+myNumber = myNumber + 10
+console.log(myNumber)
 
 // -----------------
 
@@ -31,16 +31,16 @@ console.log(myNull)
 
 // -----------------
 
-const Name = prompt("Введіть своє ім'я");
-console.log("Добрий день, ", Name);
+const myName = prompt("Введіть своє ім'я");
+console.log("Добрий день, ", myName);
 
 // -----------------
 
 const isComing = confirm("Натисніть ok або Cancel");
-if (isComing == false) {
+if (isComing === false) {
     console.log("Дію відхилено!")   
 }
-if (isComing == true) {
+if (isComing === true) {
     console.log("Дякую за підтвердження!")
 }
 
@@ -48,10 +48,10 @@ if (isComing == true) {
 
 const danger = "Дія небезпечна, підтвердіть її або відхиліть!";
 alert(danger)
-const Message = confirm("Підтвердіть або відхиліть!");
-if (Message == false) {
+const message = confirm("Підтвердіть або відхиліть!");
+if (message === false) {
     console.log("Дію відхилено!")   
 }
-if (Message == true) {
+if (message === true) {
     console.log("Дякую за підтвердження!")
 }
