@@ -32,7 +32,7 @@ console.log(myNull)
 // -----------------
 
 const myName = prompt("Введіть своє ім'я");
-console.log("Добрий день, ", myName);
+alert("Добрий день, ", myName);
 
 // -----------------
 
