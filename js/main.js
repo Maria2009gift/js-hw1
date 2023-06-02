@@ -40,7 +40,7 @@ const isComing = confirm("Натисніть ok або Cancel");
 if (isComing === false) {
     console.log("Дію відхилено!")   
 }
-if (isComing === true) {
+else {
     console.log("Дякую за підтвердження!")
 }
 
@@ -52,6 +52,6 @@ const message = confirm("Підтвердіть або відхиліть!");
 if (message === false) {
     alert("Дію відхилено!")   
 }
-if (message === true) {
+else {
     alert("Дякую за підтвердження!")
 }
