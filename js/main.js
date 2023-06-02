@@ -50,8 +50,8 @@ const danger = "Дія небезпечна, підтвердіть її або 
 alert(danger)
 const message = confirm("Підтвердіть або відхиліть!");
 if (message === false) {
-    console.log("Дію відхилено!")   
+    alert("Дію відхилено!")   
 }
 if (message === true) {
-    console.log("Дякую за підтвердження!")
+    alert("Дякую за підтвердження!")
 }
